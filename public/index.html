@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Admin Dashboard</title>
+  </head>
+  <body class="min-h-dvh grid grid-cols-5 bg-slate-300">
+    <nav class=" fixed w-[190px] min-h-dvh bg-sky-500 text-sky-50 grid content-start gap-8 p-4">
+      <h1>Dashboard</h1>
+        <ul>
+          <li>Home</li>
+          <li>Profile</li>
+          <li>Messages</li>
+          <li>History</li>
+          <li>Tasks</li>
+          <li>Communites</li>
+        </ul>
+        <ul>
+          <li>Settings</li>
+          <li>Support</li>
+          <li>Privacy</li>
+        </ul>
+    
+    </nav>
+    <main class="col-start-2 col-end-6 ">
+      <section class="bg-slate-50 grid grid-rows-2 text-sm p-4">
+        <div class="grid grid-cols-2 justify-items-center">
+          <input
+            type="search"
+            class="bg-slate-300 w-full h-6 rounded-3xl outline-none pl-3 text-xs"
+          />
+          <div>
+            <p>Peniel Bekele</p>
+          </div>
+        </div>
+        <div class="grid grid-cols-2 place-items-center">
+          <div>
+            <img src="" alt="" />
+            <p class="grid">
+              <span>Hi there,</span>
+              <span>Peniel Bekele (@peniel)</span>
+            </p>
+          </div>
+
+          <div class="flex gap-5">
+            <button class="bg-sky-500 text-sky-50 w-20 py-1 rounded-3xl">
+              New
+            </button>
+            <button class="bg-sky-500 text-sky-50 w-20 py-1 rounded-3xl">
+              Upload
+            </button>
+            <button class="bg-sky-500 text-sky-50 w-20 py-1 rounded-3xl">
+              Share
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-300 grid grid-cols-[250px_250px_1fr] px-3 py-5 gap-4">
+        <div id="projects-container" class="col-span-2">
+          <p class="font-bold m-2">Your Projects</p>
+          <div
+            id="projects-content"  class="grid grid-cols-2 grid-flow-row gap-4 grid-rows-[repeat(3,minmax(150px,1fr))]" >
+            <div
+              class="bg-slate-50 p-4 border-l-8 border-solid border-yellow-500 rounded-lg"
+            >
+              <span class="font-bold text-sm">Super Cool Project</span>
+              <p class="text-xs text-neutral-600">
+                Lorem ipsum docing elit. Labore, illum culpa. Saepe eligendi
+                inventore voluptates provident voluptas, incidunt amet.</p>
+            </div>
+            <div
+              class="bg-slate-50 p-4 border-l-8 border-solid border-yellow-500 rounded-lg"
+            >
+              <span class="font-bold text-sm">Less Cool Project</span>
+              <p class="text-xs text-neutral-600">
+                Lorem ipsum in at exercitationem eos delectus. Delectus
+                voluptate nemo, velit consequuntur atque voluptatibus nihil rem,
+                quas, ipsum saepe tenetur!
+              </p>
+            </div>
+            <div
+              class="bg-slate-50 p-4 border-l-8 border-solid border-yellow-500 rounded-lg"
+            >
+              <span class="font-bold text-sm">Impossible App</span>
+              <p class="text-xs text-neutral-600">
+                Lorem ipsum iectetur corporis veritatis, amet alias ipsa. Optio
+                totam, magnam sed dolores magni vel, impedit reprehenderit,
+                incidunt facilis sunt dolor!
+              </p>
+            </div>
+            <div
+              class="bg-slate-50 p-4 border-l-8 border-solid border-yellow-500 rounded-lg"
+            >
+              <span class="font-bold text-sm">Easy App</span>
+              <p class="text-xs text-neutral-600">
+                Lorem ipsum veniet incidunt similique delectus deserunt est
+                perspiciatis commodi ipsam modi magnam dolorem officiis quos.
+              </p>
+            </div>
+            <div
+              class="bg-slate-50 p-4 border-l-8 border-solid border-yellow-500 rounded-lg"
+            >
+              <span class="font-bold text-sm">Ad Blocker</span>
+              <p class="text-xs text-neutral-600">
+                Lorem, ipsum ventore ullam esse nemo obcaecati assumenda, et
+                totam ea sequi, ab est unde perferendis suscipit! Ex maxime
+                veritatis itaque asperiores.
+              </p>
+            </div>
+            <div
+              class="bg-slate-50 p-4 border-l-8 border-solid border-yellow-500 rounded-lg"
+            >
+              <span class="font-bold text-sm">Money Maker</span>
+              <p class="text-xs text-neutral-600">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
+                reiciendis minus tempore  unde aque.
+                Doloribus?
+              </p>
+            </div>
+           
+          </div>
+        </div>
+        <aside class="grid gap-7 content-start">
+          <div class="sticky top-0">
+            <p class="font-bold m-2 ">Annoucements</p>
+
+            <ul 
+              class="rounded-lg bg-slate-50 px-3 py-2 text-xs text-neutral-600"
+            >
+              <li class=" py-3 px-4">
+                <span class="text-xs font-bold text-slate-950"
+                  >Site Maintenance</span
+                >
+                <p class="text-truncate">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Voluptates ea tenetur explicabo obcaecati voluptatibus,
+                  accusantium laboriosam optio assumenda ratione, dolorum
+                  beatae! Corrupti minus ex optio reprehenderit veniam magni
+                  tempora aliquam.
+                </p>
+                <hr class="bg-neutral-500 mt-3">
+              </li>
+
+              <li class=" py-3 px-4">
+                <span class="text-xs font-bold text-slate-950"
+                  >Community Share Day</span
+                >
+                <p class="text-truncate">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Quasi animi doloremque natus dolorem adipisci blanditiis?
+                  Deserunt ab at, libero repellendus laboriosam ea excepturi
+                  aperiam. Saepe reiciendis ut eaque consequuntur? Ducimus!
+                </p>
+                <hr class="bg-neutral-500 mt-3">
+              </li>
+              <li class="py-3 px-4">
+                <span class="text-xs font-bold text-slate-950"
+                  >Update Privacy Policy</span
+                >
+                <p class="text-truncate">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Necessitatibus eum iste architecto consequuntur debitis animi
+                  porro, eligendi eius amet commodi suscipit dicta recusandae
+                  blanditiis rerum laboriosam sit veritatis atque incidunt.
+                </p>
+              </li>
+            </ul>
+          </div>
+
+          <div class=" sticky top-[346px]">
+            <p class="font-bold m-2">Trending</p>
+            <ul class="rounded-lg bg-slate-50 px-4 py-3 text-xs">
+              <li class="grid grid-cols-4 p-2 gap-10">
+                <img 
+                  src="https://images.unsplash.com/photo-1715002383611-63488b956401?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzfHx8ZW58MHx8fHx8"
+                  alt=""
+                  class="h-10 min-w-10 rounded-full object-cover"
+                />
+                <p class="col-span-3">
+                  <span class="font-medium block">@tagan</span>
+                  <span>World Peace Builder</span>
+                </p>
+              </li>
+              <li class="grid grid-cols-4 p-2 gap-10">
+                <img
+                  src=""
+                  alt=""
+                  class="h-10 w-10 rounded-full object-cover"
+                />
+                <p class="col-span-3">
+                  <span class="font-medium block">@peniel</span>
+                  <span>Super Cool Project</span>
+                </p>
+              </li>
+              <li class="grid grid-cols-4 p-2 gap-10">
+                <img
+                  src=""
+                  alt=""
+                  class="h-10 w-10 rounded-full object-cover"
+                />
+                <p class="col-span-3">
+                  <span class="font-medium block">@kendall</span>
+                  <span>Life Changing App</span>
+                </p>
+              </li>
+              <li class="grid grid-cols-4 p-2 gap-10">
+                <img
+                  src=""
+                  alt=""
+                  class="h-10 w-10 rounded-full object-cover"
+                />
+                <p class="col-span-3">
+                  <span class="font-medium block">@alex</span>
+                  <span>No Traffic Maker</span>
+                </p>
+              </li>
+            </ul>
+          </div>
+        </aside>
+      </section>
+    </main>
+  </body>
+  <script src="app.js"></script>
+</html>
